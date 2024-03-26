@@ -14,6 +14,6 @@ use App\Http\Controllers\ProsesController;
 */
 
 Route::get('/', function () {
-    return view('kalkulator.index');
+    return view('kalkulator1.kalkulator');
 });
 Route::resource('proses', ProsesController::class);

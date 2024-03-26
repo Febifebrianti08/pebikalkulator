@@ -52,7 +52,7 @@ class ProsesController extends Controller
             if($b !=0) {
                 $hasil =$a/$b;
             }else{
-                $hasil ="Tidak dapat melakukan pembagian dengan angka 0.";
+                $hasil ="TIDAK BISA MEMBAGI DENGAN ANGKA 0.";
             }
         }
         return view('kalkulator.hasil',compact('hasil'));
